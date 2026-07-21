@@ -1,81 +1,69 @@
 import React from "react";
-import reactIcon from "../assets/icons/react.svg";
-import typescriptLogo from "../assets/icons/typescript.svg";
-import supabaseLogo from "../assets/icons/supabase.svg";
-import javascriptLogo from "../assets/icons/javascript.svg";
-import tailwindLogo from "../assets/icons/tailwindcss.svg";
-import pythonLogo from "../assets/icons/python.svg";
-import gitLogo from "../assets/icons/git.svg";
-import dockerLogo from "../assets/icons/docker.svg";
-import insomniaLogo from "../assets/icons/insomnia.svg";
-import figmaLogo from "../assets/icons/figma.svg";
-import linuxLogo from "../assets/icons/linux.svg";
-import vscodeLogo from "../assets/icons/vscode.svg";
 
 const TechStack: React.FC = () => {
   return (
     <section className="mt-20 sm:px-5 md:px-10">
-      <h3 className="heading-style">Tech Stack</h3>
+      <div>
+        <h3 className="heading-style">Tech Stack</h3>
+        <div className="heading-line" />
+      </div>
       <div className="grid lg:grid-cols-3 gap-4">
         <div className="stack-card">
-          <h5 className="text-sm tracking-widest font-bold w-fit uppercase text-[#75D2FA]">
+          <h5 className="text-sm tracking-widest font-bold w-fit uppercase text-white">
             Frontend
           </h5>
-          <hr className="border border-[#22C55E]/80 w-35 mt-1 mb-4" />
+          <hr className="border border-primary/80 w-35 mt-1 mb-4" />
           <div className="flex flex-wrap gap-3">
             <div className="stack">
-              <img src={reactIcon} alt="" className="w-5" /> React
+              <img src='https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/reactjs.svg' alt="" className="w-5" /> React
             </div>
             <div className="stack">
-              <img src={typescriptLogo} alt="" className="w-5" /> Typscript
+              <img src="https://cdn.jsdelivr.net/gh/selfhst/icons/svg/typescript.svg" alt="" className="w-5" /> Typscript
             </div>
             <div className="stack">
-              <img src={javascriptLogo} alt="" className="w-5" /> Javascript
+              <img src='https://cdn.jsdelivr.net/gh/selfhst/icons/svg/javascript.svg' alt="" className="w-5" /> Javascript
             </div>
             <div className="stack">
-              <img src={tailwindLogo} alt="" className="w-5" /> Tailwind CSS
+              <img src='https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/tailwind.svg' alt="" className="w-5" /> Tailwind CSS
             </div>
           </div>
         </div>
 
         <div className="stack-card">
-          <h5 className="text-sm tracking-widest font-bold w-fit uppercase text-[#75D2FA]">
+          <h5 className="text-sm tracking-widest font-bold w-fit uppercase text-white">
             Backend
           </h5>
-          <hr className="border border-[#22C55E]/80 w-35 mt-1 mb-4" />
+          <hr className="border border-primary/80 w-35 mt-1 mb-4" />
           <div className="flex flex-wrap gap-3">
             <div className="stack">
-              <img src={supabaseLogo} alt="" className="w-5" /> Superbase
+              <img src="https://cdn.jsdelivr.net/gh/selfhst/icons/svg/supabase.svg" alt="" className="w-5" /> Superbase
             </div>
             <div className="stack">
-              <img src={pythonLogo} alt="" className="w-5" /> Python
+              <img src='https://cdn.jsdelivr.net/gh/selfhst/icons/svg/python.svg' alt="" className="w-5" /> Python
             </div>
           </div>
         </div>
 
         <div className="stack-card">
-          <h5 className="text-sm tracking-widest font-bold w-fit uppercase text-[#75D2FA]">
+          <h5 className="text-sm tracking-widest font-bold w-fit uppercase text-white">
             Tools
           </h5>
-          <hr className="border border-[#22C55E]/80 w-35 mt-1 mb-4" />
+          <hr className="border border-primary/80 w-35 mt-1 mb-4" />
           <div className="flex flex-wrap gap-3">
             <div className="stack">
-              <img src={gitLogo} alt="" className="w-5" /> Git
+              <img src='https://cdn.jsdelivr.net/gh/selfhst/icons/svg/git.svg' alt="" className="w-5" /> Git
             </div>
             <div className="stack">
-              <img src={dockerLogo} alt="" className="w-5" /> Docker
+              <img src='https://cdn.jsdelivr.net/gh/selfhst/icons/svg/docker.svg' alt="" className="w-5" /> Docker
             </div>
             <div className="stack">
-              <img src={insomniaLogo} alt="" className="w-5" /> Insomnia
+              <img src='https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/figma-color.svg' alt="" className="h-5" /> Figma
             </div>
             <div className="stack">
-              <img src={figmaLogo} alt="" className="h-5" /> Figma
+              <img src='https://cdn.jsdelivr.net/gh/selfhst/icons/svg/linux.svg' alt="" className="w-5" /> Linux
             </div>
             <div className="stack">
-              <img src={linuxLogo} alt="" className="w-5" /> Linux
-            </div>
-            <div className="stack">
-              <img src={vscodeLogo} alt="" className="w-5" /> VS Code
+              <img src='https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vscode.svg' alt="" className="w-5" /> VS Code
             </div>
           </div>
         </div>
