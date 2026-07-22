@@ -113,8 +113,10 @@ const Projects: React.FC = () => {
                     </div>
                   )}
                 </div>
-                <div className="image-cover">
-                  <img src={project.image} alt="" className="stack-img" />
+                <div className="p-2">
+                  <div className="image-cover">
+                    <img src={project.image} alt="" className="stack-img" />
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
